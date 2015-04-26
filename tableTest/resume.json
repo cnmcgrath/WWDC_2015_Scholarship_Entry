@@ -2,12 +2,12 @@
 	"resume":[
 		{
 			"name":"Christopher McGrath",
-			"location":"Clarkston, Michgian",
+			"location":"Clarkston, Michigan",
 			"age":"20",
 			"image":"me",
-			"about":"I'm an aspiring software engineer who likes working with people and is facinated with human-computer interaction. I enjoy going to hackathons where I challenge myself with new ideas to constantly learn new technologies and solve real world problems. In my free time I like to run, spend time with my friends and I'm always down to try something new. I've never been to California and it's been a dream to attend WWDC :) "
+			"about":"I'm an aspiring software engineer who likes working with people and is fascinated with human-computer interaction. I enjoy going to hackathons where I challenge myself with new ideas to constantly learn new technologies and solve real world problems. In my free time I like to run, spend time with my friends and I'm always down to try something new. I've never been to California and it's been a dream to attend WWDC :) "
 		},{
-			"name":"Michgian State University",
+			"name":"Michigan State University",
 			"location":"East Lansing, Michigan",
 			"major":"Computer Science and Engineering, Class of 2017",
 			"GPA":"3.2 / 4.0",
@@ -19,31 +19,31 @@
 			"major":"Class of 2013",
 			"GPA":"3.4 graduated with Honors",
 			"image":"ndp.png",
-			"about":"The lessons learned at Notre Dame were the ones that prepared me for college and I'm very thankful for the opportunities I had. While at Notre Dame I was a member of the Student Congress debate team where I qualified for nationals twice and was able to travel to Baltimore and Philidalpha. "
+			"about":"The lessons learned at Notre Dame were the ones that prepared me for college and I'm very thankful for the opportunities I had. While at Notre Dame I was a member of the Student Congress debate team where I qualified for nationals twice and was able to travel to Baltimore and Philadelphia. "
 		},{
 			"name":"Title Source (a Quicken Loans company)",
 			"date":"May 2014 - August 2014",
 			"location":"Detroit Michigan",
 			"job":"Intern iOS Software Engineer",
-			"about":"Title Source was my 2nd internship and one of my most exciting jobs. I had the opportunity to work on projects that were deployed through out the country and had the opportunity to solve real problems with them. My biggest project 'Title Source MySignings' is the app that Title Source has deployed to all their Notaries in all 50 states. The app is designed to allow a Notary to accept, process, and provide valuable analytics throughout the title process. One of my challenges on the project was to help design an interface that worked well for the users of the app. This was a challenge because the reserach showed a vast majority of the users were 60+ (mainly the what's an iPhone crowd...). In order to design an app interface that worked well for these types of users, you had to be really careful about the conventions in the app. Swipe, pull-to-refresh, double tap, and pinch wern't gestures that our users intuitively understood. In order to solve this problem, I developed an interactive tutorial where the user learned how to use the app and what it ment to accept permissions like 'Allow app to use your location' or 'Allow app to send push notifications'. At the end of my internship I was told I reduced the support call volume by over 50%.",
+			"about":"Title Source was my 2nd internship and one of my most exciting jobs. I had the opportunity to work on projects that were deployed through out the country and had the opportunity to solve real problems with them. My biggest project 'Title Source MySignings' is the app that Title Source has deployed to all their Notaries in all 50 states. The app is designed to allow a Notary to accept, process, and provide valuable analytics throughout the title process. One of my challenges on the project was to help design an interface that worked well for the users of the app. This was a challenge because the reserach showed a vast majority of the users were 60+ (mainly the what's an iPhone crowd...). In order to design an app interface that worked well for these types of users, you had to be really careful about the conventions in the app. Swipe, pull-to-refresh, double tap, and pinch weren’t gestures that our users intuitively understood. In order to solve this problem, I developed an interactive tutorial where the user learned how to use the app and what it meant to accept permissions like 'Allow app to use your location' or 'Allow app to send push notifications'. At the end of my internship I was told I reduced the support call volume by over 50%.",
 			"image":"titlesource.png"
 		},{
 			"name":"MSU Computer Help and Repair Desk",
 			"date":"August 2013 - Present",
 			"location":"East Lansing Michigan",
-			"job":"Consultant/Computer Repair Technition",
-			"about":"The MSU Computer Help and Repair Desk is an oncampus location where students, faculty, staff, and alumni of MSU can come and get assistance with computer problems ranging from simple virus removal to hardware repairs. At the Computer Help desk, I primarly work as a consultant helping people diagnose software issues and spend a majority of my time removing viruses and helping users understand how to use MSU's various technical systems. While this job hasn't been directly related to software development, I've learned a lot about how people use computers and this has allowed me to design better interfaces and apps.",
+			"job":"Consultant/Computer Repair Technician",
+			"about":"The MSU Computer Help and Repair Desk is an on campus location where students, faculty, staff, and alumni of MSU can come and get assistance with computer problems ranging from simple virus removal to hardware repairs. At the Computer Help desk, I primarily work as a consultant helping people diagnose software issues and spend a majority of my time removing viruses and helping users understand how to use MSU's various technical systems. While this job hasn't been directly related to software development, I've learned a lot about how people use computers and this has allowed me to design better interfaces and apps.",
 			"image":"cstore.png"
 		},{
 			"name":"Benzinga",
 			"date":"May 2013 - August 2013",
 			"location":"Southfield Michigan",
 			"job":"Intern iOS Software Engineer",
-			"about":"Benzinga was my first internship and the first time I used iOS development professionaly. While working for Benzinga I helped launch their first iPhone app 'Benzinga Stock and News Trader' an app designed to showcase Benzinga's news stories and provide expert insight into the stock market. While at this internship I got my first taste of developing on a team and learned advanced iOS development concepts such as delegation, MVC, inheritence, polymorphism and ARC. While designing 'Benzinga Stock and News Trader' I worked closely with the company's CEO and learned how to work with project deadlines.",
+			"about":"Benzinga was my first internship and the first time I used iOS development professionally. While working for Benzinga I helped launch their first iPhone app 'Benzinga Stock and News Trader' an app designed to showcase Benzinga's news stories and provide expert insight into the stock market. While at this internship I got my first taste of developing on a team and learned advanced iOS development concepts such as delegation, MVC, inheritance, polymorphism and ARC. While designing 'Benzinga Stock and News Trader' I worked closely with the company's CEO and learned how to work with project deadlines.",
 			"image":"benzinga.png"
 		},{
 			"name":"Sherwin-Williams",
-			"date":"Feburary 2013 - August 2013",
+			"date":"February 2013 - August 2013",
 			"location":"Clarkston Michigan",
 			"job":"Sales Associate",
 			"about":"Sherwin-Williams was my first job and my first real experience working with the public. While at Sherwin-Williams, I worked with contractors and homeowners and provided advice on products as well as interior and exterior design decisions.",
@@ -53,17 +53,17 @@
 			"name":"SpartaHack",
 			"location":"East Lansing Michigan",
 			"job":"Technical Director / iOS Developer",
-			"about":"SpartaHack is the official hackathon at Michgian State University and this past year I was the Technical Director. It was my job to make sure that we had a website, iOS, and Android app that kept attendees informed about tech talks, workshops, events, prizes, sponsors and more. Our first event was this year and we had over 300 attendees from some of the country's best Universities developing projects that completely blew me away. I'm really proud to be a part of something like SpartaHack and have a goal to make next year's twice as good as this past one.",
+			"about":"SpartaHack is the official hackathon at Michigan State University and this past year I was the Technical Director. It was my job to make sure that we had a website, iOS, and Android app that kept attendees informed about tech talks, workshops, events, prizes, sponsors and more. Our first event was this year and we had over 300 attendees from some of the country's best Universities developing projects that completely blew me away. I'm really proud to be a part of something like SpartaHack and have a goal to make next year's twice as good as this past one.",
 			"image":"spartahack.png"
 		},{
 			"name":"Drink, no Drive",
 			"location":"MHacks Fall 2014",
-			"about":"Drink, no Drive is a hackathon project a few friends and I worked on at MHacks. Our goal was to design an app that would eliminate drunk driving without requiring the user to use some type of external device. The way we accomplished this was through tracking of purchases at a bar. The app begins with the user giving us a few details about themselves, primarly height, weight, gender and home address. The user would then purchase a drink at a bar and our app tracked the consumption through time stamps on the purchase. Everytime the user bought a drink, we assumed they finished the last drink and would add that to the calculation. Overtime, we the app would have a rough approximation of the alochol consumption. We combined this information with indoor location tracking and if the user was attempting to leave the bar and was over the legal limit, the app would alert the user and call for an Uber cab which woult take the user to the address they provided in the app. This went really well and won Uber's award for 'Best Hack that affects the Physical World' ",
+			"about":"Drink, no Drive is a hackathon project a few friends and I worked on at MHacks. Our goal was to design an app that would eliminate drunk driving without requiring the user to use some type of external device. The way we accomplished this was through tracking of purchases at a bar. The app begins with the user giving us a few details about themselves, primarily height, weight, gender and home address. The user would then purchase a drink at a bar and our app tracked the consumption through time stamps on the purchase. Every time the user bought a drink, we assumed they finished the last drink and would add that to the calculation. Overtime, we the app would have a rough approximation of the alcohol consumption. We combined this information with indoor location tracking and if the user was attempting to leave the bar and was over the legal limit, the app would alert the user and call for an Uber cab which would take the user to the address they provided in the app. This went really well and won Uber's award for 'Best Hack that affects the Physical World' ",
 			"image":"DrinkNoDrive.png"
 		},{
 			"name":"Watch My Car",
 			"location":"HackIllinois 2015",
-			"about":"Watch My Car was another hackathon project that explored potential uses for a smartwatch. My team had a Raspberry Pi, RC car, Pebble smartwatch and an iPhone and we wanted all of those devices to work together. We designed and built a solution that would allow a user to plug a device into their car and be able to Start, Stop, Lock and Unlock the car while getting vechical metrics such as fuel level, tire pressure, mantinace logs, and porential error codes. This project also went really well and won Theil Foundation's award for the 'Best Busniess Potential'. ",
+			"about":"Watch My Car was another hackathon project that explored potential uses for a smartwatch. My team had a Raspberry Pi, RC car, Pebble smartwatch and an iPhone and we wanted all of those devices to work together. We designed and built a solution that would allow a user to plug a device into their car and be able to Start, Stop, Lock and Unlock the car while getting vehical metrics such as fuel level, tire pressure, maintenance logs, and potential error codes. This project also went really well and won Theil Foundation's award for the 'Best Business Potential'. ",
 			"image":"WatchMyCar.png"
 		}
 	]
