@@ -1,25 +1,118 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uXW-jN-pQ1">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="d2N-mu-S3c">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <tableViewController id="uXW-jN-pQ1" customClass="ViewController" customModule="tableTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="344" sectionHeaderHeight="22" sectionFooterHeight="22" id="Q8p-Qb-2Pb">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="344" id="A0D-c8-Dgg" customClass="customCell" customModule="tableTest" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A0D-c8-Dgg" id="BJB-au-qi4">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view alpha="0.79999999999999982" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DLi-uy-gpr">
+                                            <rect key="frame" x="8" y="8" width="584" height="327"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwS-9Q-Kup">
+                                                    <rect key="frame" x="8" y="142" width="568" height="20"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7IG-20-BUf">
+                                                    <rect key="frame" x="8" y="170" width="568" height="20"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCl-0L-K42">
+                                                    <rect key="frame" x="8" y="198" width="568" height="20"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="729-IM-4r4">
+                                                    <rect key="frame" x="8" y="226" width="568" height="25"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg8-ta-8qV">
+                                                    <rect key="frame" x="8" y="259" width="568" height="60"/>
+                                                    <string key="text">this is an about test this is an about test this is an about test this is an about test this is an about test this is an about test this is an about test this is an about test</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="spartahack" translatesAutoresizingMaskIntoConstraints="NO" id="xEP-nv-kEG">
+                                                    <rect key="frame" x="4" y="8" width="575" height="134"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="134" id="leK-gE-KTu"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="729-IM-4r4" firstAttribute="top" secondItem="mCl-0L-K42" secondAttribute="bottom" constant="8" id="5Bh-cP-5Jt"/>
+                                                <constraint firstAttribute="trailing" secondItem="729-IM-4r4" secondAttribute="trailing" constant="8" id="7iI-3q-jxX"/>
+                                                <constraint firstItem="7IG-20-BUf" firstAttribute="leading" secondItem="DLi-uy-gpr" secondAttribute="leading" constant="8" id="D5r-mU-WRg"/>
+                                                <constraint firstItem="mCl-0L-K42" firstAttribute="leading" secondItem="DLi-uy-gpr" secondAttribute="leading" constant="8" id="Db3-yY-4ay"/>
+                                                <constraint firstItem="xEP-nv-kEG" firstAttribute="top" secondItem="DLi-uy-gpr" secondAttribute="top" constant="8" id="EAY-jB-Y5F"/>
+                                                <constraint firstAttribute="bottom" secondItem="wg8-ta-8qV" secondAttribute="bottom" constant="8" id="I0c-NI-vAj"/>
+                                                <constraint firstAttribute="trailing" secondItem="wg8-ta-8qV" secondAttribute="trailing" constant="8" id="IMX-Cq-krJ"/>
+                                                <constraint firstItem="kwS-9Q-Kup" firstAttribute="leading" secondItem="DLi-uy-gpr" secondAttribute="leading" constant="8" id="JgR-N6-iHa"/>
+                                                <constraint firstItem="729-IM-4r4" firstAttribute="leading" secondItem="DLi-uy-gpr" secondAttribute="leading" constant="8" id="MCG-B4-72c"/>
+                                                <constraint firstItem="kwS-9Q-Kup" firstAttribute="top" secondItem="xEP-nv-kEG" secondAttribute="bottom" id="VoP-3s-Bfb"/>
+                                                <constraint firstItem="7IG-20-BUf" firstAttribute="top" secondItem="kwS-9Q-Kup" secondAttribute="bottom" constant="8" id="WHl-jC-pHM"/>
+                                                <constraint firstItem="wg8-ta-8qV" firstAttribute="top" secondItem="729-IM-4r4" secondAttribute="bottom" constant="8" id="doB-zt-t7s"/>
+                                                <constraint firstItem="mCl-0L-K42" firstAttribute="top" secondItem="7IG-20-BUf" secondAttribute="bottom" constant="8" id="gAG-y7-rrE"/>
+                                                <constraint firstAttribute="trailing" secondItem="xEP-nv-kEG" secondAttribute="trailing" constant="5" id="hgu-yb-ER7"/>
+                                                <constraint firstItem="wg8-ta-8qV" firstAttribute="leading" secondItem="DLi-uy-gpr" secondAttribute="leading" constant="8" id="kDm-se-Kmq"/>
+                                                <constraint firstAttribute="trailing" secondItem="7IG-20-BUf" secondAttribute="trailing" constant="8" id="mAI-WX-S2j"/>
+                                                <constraint firstAttribute="trailing" secondItem="kwS-9Q-Kup" secondAttribute="trailing" constant="8" id="tPU-M4-bGI"/>
+                                                <constraint firstAttribute="trailing" secondItem="mCl-0L-K42" secondAttribute="trailing" constant="8" id="vJm-va-kuu"/>
+                                                <constraint firstItem="xEP-nv-kEG" firstAttribute="leading" secondItem="DLi-uy-gpr" secondAttribute="leading" constant="4" id="xjE-vt-cGp"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="DLi-uy-gpr" secondAttribute="trailing" constant="8" id="UHu-1W-uEO"/>
+                                        <constraint firstItem="DLi-uy-gpr" firstAttribute="leading" secondItem="BJB-au-qi4" secondAttribute="leading" constant="8" id="VUn-RV-mnY"/>
+                                        <constraint firstAttribute="bottom" secondItem="DLi-uy-gpr" secondAttribute="bottom" constant="8" id="cb3-ad-qaD"/>
+                                        <constraint firstItem="DLi-uy-gpr" firstAttribute="top" secondItem="BJB-au-qi4" secondAttribute="top" constant="8" id="qIL-I9-Whi"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="aboutLabel" destination="wg8-ta-8qV" id="Xja-Zf-hnq"/>
+                                    <outlet property="info1Label" destination="mCl-0L-K42" id="gjT-y1-qEf"/>
+                                    <outlet property="info2Label" destination="729-IM-4r4" id="PqX-ia-dhd"/>
+                                    <outlet property="locationLabel" destination="7IG-20-BUf" id="zE5-hm-g8B"/>
+                                    <outlet property="picture" destination="xEP-nv-kEG" id="Agt-8k-yUR"/>
+                                    <outlet property="sampleView" destination="DLi-uy-gpr" id="LUA-eM-Sp9"/>
+                                    <outlet property="titleLabel" destination="kwS-9Q-Kup" id="ezV-10-M97"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="uXW-jN-pQ1" id="JVo-fl-L3I"/>
+                            <outlet property="delegate" destination="uXW-jN-pQ1" id="3qP-hs-1fm"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLZ-c6-Z3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="692" y="404"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="spartahack" width="900" height="300"/>
+    </resources>
 </document>

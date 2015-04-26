@@ -13,6 +13,10 @@
 		F51B118C1AE89F4F001BB9E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51B118B1AE89F4F001BB9E4 /* Images.xcassets */; };
 		F51B118F1AE89F50001BB9E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51B118D1AE89F50001BB9E4 /* LaunchScreen.xib */; };
 		F51B119B1AE89F50001BB9E4 /* tableTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B119A1AE89F50001BB9E4 /* tableTestTests.swift */; };
+		F51B11A51AE98130001BB9E4 /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B11A41AE98130001BB9E4 /* Resume.swift */; };
+		F5A0BC371AE9EACC00B78156 /* resume.json in Resources */ = {isa = PBXBuildFile; fileRef = F5A0BC361AE9EACC00B78156 /* resume.json */; };
+		F5A0BC391AE9ED0F00B78156 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A0BC381AE9ED0F00B78156 /* QuartzCore.framework */; };
+		F5A0BC3B1AED5B7900B78156 /* wwdc15-hero_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A0BC3A1AED5B7900B78156 /* wwdc15-hero_2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		F51B11941AE89F50001BB9E4 /* tableTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51B11991AE89F50001BB9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F51B119A1AE89F50001BB9E4 /* tableTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableTestTests.swift; sourceTree = "<group>"; };
+		F51B11A41AE98130001BB9E4 /* Resume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
+		F5A0BC361AE9EACC00B78156 /* resume.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resume.json; sourceTree = "<group>"; };
+		F5A0BC381AE9ED0F00B78156 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F5A0BC3A1AED5B7900B78156 /* wwdc15-hero_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wwdc15-hero_2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A0BC391AE9ED0F00B78156 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +89,10 @@
 				F51B11841AE89F4F001BB9E4 /* AppDelegate.swift */,
 				F51B11861AE89F4F001BB9E4 /* ViewController.swift */,
 				F51B11881AE89F4F001BB9E4 /* Main.storyboard */,
+				F5A0BC361AE9EACC00B78156 /* resume.json */,
+				F51B11A41AE98130001BB9E4 /* Resume.swift */,
 				F51B118B1AE89F4F001BB9E4 /* Images.xcassets */,
+				F5A0BC3A1AED5B7900B78156 /* wwdc15-hero_2x.png */,
 				F51B118D1AE89F50001BB9E4 /* LaunchScreen.xib */,
 				F51B11821AE89F4F001BB9E4 /* Supporting Files */,
 			);
@@ -90,6 +102,7 @@
 		F51B11821AE89F4F001BB9E4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F5A0BC381AE9ED0F00B78156 /* QuartzCore.framework */,
 				F51B11831AE89F4F001BB9E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A0BC371AE9EACC00B78156 /* resume.json in Resources */,
 				F51B118A1AE89F4F001BB9E4 /* Main.storyboard in Resources */,
 				F51B118F1AE89F50001BB9E4 /* LaunchScreen.xib in Resources */,
 				F51B118C1AE89F4F001BB9E4 /* Images.xcassets in Resources */,
+				F5A0BC3B1AED5B7900B78156 /* wwdc15-hero_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F51B11871AE89F4F001BB9E4 /* ViewController.swift in Sources */,
+				F51B11A51AE98130001BB9E4 /* Resume.swift in Sources */,
 				F51B11851AE89F4F001BB9E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +425,7 @@
 				F51B11A01AE89F50001BB9E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51B11A11AE89F50001BB9E4 /* Build configuration list for PBXNativeTarget "tableTestTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				F51B11A31AE89F50001BB9E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
