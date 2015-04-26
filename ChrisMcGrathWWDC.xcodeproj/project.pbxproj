@@ -68,7 +68,7 @@
 		F51B11761AE89F4F001BB9E4 = {
 			isa = PBXGroup;
 			children = (
-				F51B11811AE89F4F001BB9E4 /* tableTest */,
+				F51B11811AE89F4F001BB9E4 /* ChrisMcGrathWWDC */,
 				F51B11971AE89F50001BB9E4 /* tableTestTests */,
 				F51B11801AE89F4F001BB9E4 /* Products */,
 			);
@@ -83,7 +83,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F51B11811AE89F4F001BB9E4 /* tableTest */ = {
+		F51B11811AE89F4F001BB9E4 /* ChrisMcGrathWWDC */ = {
 			isa = PBXGroup;
 			children = (
 				F51B11841AE89F4F001BB9E4 /* AppDelegate.swift */,
@@ -96,6 +96,7 @@
 				F51B118D1AE89F50001BB9E4 /* LaunchScreen.xib */,
 				F51B11821AE89F4F001BB9E4 /* Supporting Files */,
 			);
+			name = ChrisMcGrathWWDC;
 			path = tableTest;
 			sourceTree = "<group>";
 		};
@@ -128,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F51B117E1AE89F4F001BB9E4 /* tableTest */ = {
+		F51B117E1AE89F4F001BB9E4 /* ChrisMcGrathWWDC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F51B119E1AE89F50001BB9E4 /* Build configuration list for PBXNativeTarget "tableTest" */;
+			buildConfigurationList = F51B119E1AE89F50001BB9E4 /* Build configuration list for PBXNativeTarget "ChrisMcGrathWWDC" */;
 			buildPhases = (
 				F51B117B1AE89F4F001BB9E4 /* Sources */,
 				F51B117C1AE89F4F001BB9E4 /* Frameworks */,
@@ -140,7 +141,7 @@
 			);
 			dependencies = (
 			);
-			name = tableTest;
+			name = ChrisMcGrathWWDC;
 			productName = tableTest;
 			productReference = F51B117F1AE89F4F001BB9E4 /* tableTest.app */;
 			productType = "com.apple.product-type.application";
@@ -181,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F51B117A1AE89F4F001BB9E4 /* Build configuration list for PBXProject "tableTest" */;
+			buildConfigurationList = F51B117A1AE89F4F001BB9E4 /* Build configuration list for PBXProject "ChrisMcGrathWWDC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F51B117E1AE89F4F001BB9E4 /* tableTest */,
+				F51B117E1AE89F4F001BB9E4 /* ChrisMcGrathWWDC */,
 				F51B11931AE89F50001BB9E4 /* tableTestTests */,
 			);
 		};
@@ -246,7 +247,7 @@
 /* Begin PBXTargetDependency section */
 		F51B11961AE89F50001BB9E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F51B117E1AE89F4F001BB9E4 /* tableTest */;
+			target = F51B117E1AE89F4F001BB9E4 /* ChrisMcGrathWWDC */;
 			targetProxy = F51B11951AE89F50001BB9E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,7 +410,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F51B117A1AE89F4F001BB9E4 /* Build configuration list for PBXProject "tableTest" */ = {
+		F51B117A1AE89F4F001BB9E4 /* Build configuration list for PBXProject "ChrisMcGrathWWDC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F51B119C1AE89F50001BB9E4 /* Debug */,
@@ -418,7 +419,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F51B119E1AE89F50001BB9E4 /* Build configuration list for PBXNativeTarget "tableTest" */ = {
+		F51B119E1AE89F50001BB9E4 /* Build configuration list for PBXNativeTarget "ChrisMcGrathWWDC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F51B119F1AE89F50001BB9E4 /* Debug */,

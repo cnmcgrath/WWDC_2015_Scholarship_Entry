@@ -7,13 +7,13 @@
         <!--View Controller-->
         <scene sceneID="d2N-mu-S3c">
             <objects>
-                <tableViewController id="uXW-jN-pQ1" customClass="ViewController" customModule="tableTest" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="uXW-jN-pQ1" customClass="ViewController" customModule="ChrisMcGrathWWDC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="344" sectionHeaderHeight="22" sectionFooterHeight="22" id="Q8p-Qb-2Pb">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="344" id="A0D-c8-Dgg" customClass="customCell" customModule="tableTest" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="344" id="A0D-c8-Dgg" customClass="customCell" customModule="ChrisMcGrathWWDC" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A0D-c8-Dgg" id="BJB-au-qi4">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -40,15 +40,15 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="729-IM-4r4">
-                                                    <rect key="frame" x="8" y="226" width="568" height="25"/>
+                                                    <rect key="frame" x="8" y="226" width="568" height="54"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg8-ta-8qV">
-                                                    <rect key="frame" x="8" y="259" width="568" height="60"/>
+                                                    <rect key="frame" x="8" y="288" width="568" height="31"/>
                                                     <string key="text">this is an about test this is an about test this is an about test this is an about test this is an about test this is an about test this is an about test this is an about test</string>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
