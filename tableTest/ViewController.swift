@@ -9,6 +9,9 @@
 import UIKit
 import QuartzCore
 
+
+// Custom cell
+
 class customCell: UITableViewCell{
     @IBOutlet var sampleView: UIView!
     @IBOutlet weak var picture: UIImageView!
@@ -27,7 +30,7 @@ class customCell: UITableViewCell{
         picture.image = UIImage(named: node.imageName!)
         
         if (node.age != nil){
-            var prefix = "Age: "
+            let prefix = "Age: "
             info1Label.text = prefix + node.age!
         }else if (node.job != nil ){
             info1Label.text = node.job
@@ -36,7 +39,8 @@ class customCell: UITableViewCell{
         }
         
         if (node.GPA != nil){
-            info2Label.text = node.GPA
+            let prefix = "GPA: "
+            info2Label.text = prefix + node.GPA!
         }else{
             info2Label.text = node.date
         }
@@ -47,13 +51,14 @@ class customCell: UITableViewCell{
     }
 }
 
+// Animation Class for cell animation
 class TipInCellAnimator {
     // placeholder for things to come -- only fades in for now
     class func animate(cell:UITableViewCell) {
         let view = cell.contentView
-        let rotationDegrees: CGFloat = -25
+        let rotationDegrees: CGFloat = -25.0
         let rotationRadians: CGFloat = rotationDegrees * (CGFloat(M_PI)/180.0)
-        let offset = CGPointMake(0, -20)
+        let offset = CGPointMake(-20, -20)
         var startTransform = CATransform3DIdentity
         startTransform = CATransform3DRotate(CATransform3DIdentity, rotationRadians, 0.0, 0.0, 1.0)
         startTransform = CATransform3DTranslate(startTransform, offset.x, offset.y, 0.0)
@@ -68,15 +73,21 @@ class TipInCellAnimator {
     }
 }
 
-class ViewController: UITableViewController, UITableViewDataSource, UITableViewDelegate{
+class ViewController: UITableViewController{
 
     var toDoItems: [Node] = []
     
+    
+    /// Load json model
     func loadData(){
         let path = NSBundle.mainBundle().pathForResource("resume", ofType: "json")
         toDoItems = Node.loadMembersFromFile(path!)
         self.tableView.reloadData()
 
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
     
     override func viewDidLoad() {
@@ -90,17 +101,13 @@ class ViewController: UITableViewController, UITableViewDataSource, UITableViewD
         
     }
     
-    override func prefersStatusBarHidden() -> Bool {
-        return true
-    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    
-    // MARK: - Table view data source
-    
+    // MARK: - Table View Delegate Methods
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
@@ -116,28 +123,29 @@ class ViewController: UITableViewController, UITableViewDataSource, UITableViewD
         
         
             cell.useNode(item)
-        
+            //control autolayout
             cell.setNeedsUpdateConstraints()
             cell.updateConstraintsIfNeeded()
         
             return cell
     }
 
-    // MARK: - Table view delegate
-    
-    func colorForIndex(index: Int) -> UIColor {
-        let itemCount = toDoItems.count
-        let val = (CGFloat(index) / CGFloat (itemCount)) * 0.6
-        var newColor = UIColor(red: 0.25, green: 0.0, blue: val, alpha: 1.0)
-        return newColor
-
-    }
-
     override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell,
         forRowAtIndexPath indexPath: NSIndexPath) {
             TipInCellAnimator.animate(cell)
             cell.backgroundColor = colorForIndex(indexPath.row)
+            
+    }
+    
+    //change the cell color as the user scrolls
+    
+    func colorForIndex(index: Int) -> UIColor {
+        let itemCount = toDoItems.count
+        let val = (CGFloat(index) / CGFloat (itemCount)) * 0.6
+        let newColor = UIColor(red: 0.25, green: 0.0, blue: val, alpha: 1.0)
+        return newColor
 
     }
+
 }
 

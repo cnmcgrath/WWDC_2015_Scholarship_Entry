@@ -23,10 +23,10 @@ class Node {
     
     init(dictionary:NSDictionary) {
         imageName = dictionary["image"]    as? String
-        title     = dictionary["name"]    as? String
+        title     = dictionary["name"]     as? String
         location  = dictionary["location"] as? String
-        about     = dictionary["about"] as? String
-        major     = dictionary["major"] as? String
+        about     = dictionary["about"]    as? String
+        major     = dictionary["major"]    as? String
         
         date      = dictionary["date"]     as? String
         age       = dictionary["age"]      as? String
@@ -34,18 +34,27 @@ class Node {
         job       = dictionary["job"]      as? String
     }
     
-    class func loadMembersFromFile(path:String) -> [Node]
+static func loadMembersFromFile(path:String) -> [Node]
     {
-        var nodes:[Node] = []
-        var error:NSError? = nil
-        if let data = NSData(contentsOfFile: path, options:nil, error:&error),
-            json = NSJSONSerialization.JSONObjectWithData(data, options: nil, error:&error) as? NSDictionary,
-            team = json["resume"] as? [NSDictionary] {
-                for memberDictionary in team {
-                    let item = Node(dictionary: memberDictionary)
-                    nodes.append(item)
-                }
+        var nodes : [Node] = []
+        
+        let data = NSData(contentsOfFile:path)
+        
+        do {
+            let json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.AllowFragments) as! NSDictionary
+            let resume = json["resume"] as! NSArray
+            
+            for itemDict in resume {
+                let item = Node(dictionary: itemDict as! NSDictionary)
+                nodes.append(item)
+            }
+            
+            
+
+        }catch{
+            
         }
+        
         return nodes
     }
 }
